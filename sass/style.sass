@@ -1,3 +1,68 @@
+*
+    box-sizing: border-box
+
 div 
     display: inline-block
-    background: red
+    background: lightgreen
+    background-color: rgba(248,80,50,1);
+    margin: 0 auto
+    
+.spanTest span
+    font-size: 22px
+    
+.spanTest
+    width: 300px
+    
+#buttonBootstrap
+    margin: 200px
+    padding: 30px
+    cursor: pointer
+    
+a
+    color: orange
+
+.nthChild p:nthChild(3)
+    color: yellow
+    
+.simplicaLogo
+    position: relative
+    left: 30px
+    top: -30px
+    
+.container
+    display: block
+    margin: 0 auto
+
+.div1
+    width: 49.85%
+    background-color: lightblue
+    
+@media (min-width: 768px) 
+    
+	[class*="col-"] 
+		float: left
+	.col-1 
+		width: 8.334%
+	.col-2 
+		width: 16.667%
+	.col-3 
+		width: 25%
+	.col-4 
+		width: 33.3334%
+	.col-5 
+		width: 41.667%
+	.col-6 
+		width: 50%
+	.col-7 
+		width: 58.334%
+	.col-8 
+		width: 66.667%
+	.col-9 
+		width: 75%
+	.col-10 
+		width: 83.334%
+	.col-11 
+		width: 91.667%
+	.col-12 
+		width: 100%
+    
